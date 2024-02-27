@@ -1,0 +1,283 @@
+.mainFxmlClass {
+
+}
+
+#painelConsultar  {
+    -fx-background-color: #FFF;
+    -fx-background-radius: 10px;
+}
+
+#titulo1, #titulo2, #titulo3, #titulo4, #titulo5, #titulo7, #titulo8, #titulo6 {
+    -fx-font-size: 20;
+    -fx-font-weight: 500;
+}
+
+#painelFoto {
+    -fx-background-radius: 50%;
+    -fx-background-color: #000;
+}
+
+#btnEditar {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #fff;
+    -fx-background-color: #FF6000;
+}
+
+#btnDeleta {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #fff;
+    -fx-background-color: #FF0000;
+}
+
+#vboxMenu {
+    -fx-background-color: #fff;
+    -fx-min-width: 92px;
+    -fx-min-height: 715;
+}
+
+#painelInfo {
+    -fx-background-color: #FFF;
+    -fx-background-radius: 10px;
+}
+
+#tituloVisao {
+    -fx-font-size: 20px;
+    -fx-text-fill: #728095;
+    
+}
+
+#tituloInfo {
+    -fx-font-size: 24px;
+    -fx-text-fill: #000;
+    -fx-font-weight: bold;
+}
+
+#tituloAluguel, #tituloComeco, #tituloFim, #tituloTotal, #tituloValor, #tituloStatus {
+    -fx-font-size: 16px;
+    -fx-text-fill: #000;
+    -fx-font-weight: 400;
+}
+
+#tituloInfo2 {
+    -fx-font-size: 24px;
+    -fx-text-fill: #000;
+    -fx-font-weight: bold;
+}
+
+#pane1 {
+    -fx-background-color:  linear-gradient(from 0% 0% to 100% 100%, #FEAC5E 0%, #C779D0 50%, #4BC0C8 100%);
+    -fx-background-radius: 20px;
+}
+
+#tituloQuilo, #tituloCambio {
+    -fx-font-size: 16px;
+    -fx-text-fill: #fff;
+    -fx-font-weight: bold;
+}
+
+#btnMenu, #btnContrato, #btnAddauto, #btnAddcontrato, #btnContrato, #btnExibir {
+    -fx-min-width: 80px;
+    -fx-min-height:  58px;
+    -fx-background-radius: 10px;
+    -fx-background-color:  linear-gradient(from 0% 0% to 100% 100%, #FEAC5E 0%, #C779D0 50%, #4BC0C8 100%);
+    -fx-cursor: hand;
+}
+
+#btnAddauto {
+    -fx-min-width: 80px;
+    -fx-min-height:  58px;
+    -fx-background-radius: 10px;
+    -fx-background-color:  linear-gradient(from 0% 0% to 100% 100%, #5433FF 0%, #20BDFF 50%, #A5FECB 100%);
+    -fx-cursor: hand;
+}
+
+#btnConsulta {
+    -fx-background-radius: 10px 0 0 10px;
+    -fx-background-color: #fff;
+        -fx-cursor: hand;
+}
+
+#cmbConsulta {
+    -fx-background-color:#fff;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+
+
+
+#painelExibeAuto {
+    -fx-background-color: #fff;
+
+}
+
+#cmbFiltros, #cmbItens {
+    -fx-background-color:#fff;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+#btnDetalhar {
+      -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #fff;
+    -fx-background-color:  linear-gradient(from 0% 0% to 100% 100%, #FEAC5E 0%, #C779D0 50%, #4BC0C8 100%);
+    -fx-cursor: hand;
+}
+
+#lblOrdem {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+/*
+#btnAnterior, #btnProximo {
+        -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #fff;
+    -fx-background-color: #FF6000;
+    -fx-cursor: hand;
+}*/
+#btnMenu:hover, #btnExibir:hover, #btnAddauto:hover, #btnAddcontrato:hover, #btnContrato:hover {
+   -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #5433FF 0%, #20BDFF 50%, #A5FECB 100%);
+
+}
+
+#btnAplicar {
+     -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #fff;
+    -fx-background-color:  linear-gradient(from 0% 0% to 100% 100%, #FEAC5E 0%, #C779D0 50%, #4BC0C8 100%);
+    -fx-cursor: hand;
+}
+
+
+#btnSalvar {
+     -fx-background-color:  #3EA2FF;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #fff;
+    -fx-cursor: hand;
+}
+
+#btnExcluir, #btnExcluir1 {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #fff;
+    -fx-background-color:  #FF0000;
+    -fx-cursor: hand;
+}
+
+#btnSalvar1 {
+     -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #fff;
+        -fx-background-color:  linear-gradient(from 0% 0% to 100% 100%, #FEAC5E 0%, #C779D0 50%, #4BC0C8 100%);
+        -fx-cursor: hand;
+
+}
+
+#btnVoltar {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #fff;
+    -fx-background-color:  #FFC700;
+    -fx-cursor: hand;
+}
+
+#cmbMarca, #cmbCategoria, #cmbCambio, #cmbDirecao {
+     -fx-background-color:#fff;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+#txtModelo, #txtPlaca, #txtQuilo, #txtAno, #txtMoto, #txtChassi, #txtComb, #txtValor, #txtVelomax {
+     -fx-background-color:#fff;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+#btnBuscar {
+     -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #fff;
+    -fx-background-color:  linear-gradient(from 0% 0% to 100% 100%, #FEAC5E 0%, #C779D0 50%, #4BC0C8 100%);
+    -fx-cursor: hand;
+}
+
+#btnConsulta {
+   
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #fff;
+    -fx-background-color:  #FFC700;
+    -fx-cursor: hand;
+
+}
+
+#btnLimpar {
+     -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #fff;
+    -fx-background-color:  #FFC700;
+    -fx-cursor: hand;
+}
+
+#btnCancelar {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #fff;
+    -fx-background-color:  #FF0000;
+    -fx-cursor: hand;
+}
+
+#btnAdicionar {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #fff;
+    -fx-background-color:  #3EA2FF;
+    -fx-cursor: hand;
+}
+
+#btnSalvar {
+     -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #fff;
+    -fx-background-color:  linear-gradient(from 0% 0% to 100% 100%, #FEAC5E 0%, #C779D0 50%, #4BC0C8 100%);
+    -fx-cursor: hand;
+}
+
+#btnEditar1 {
+     -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #fff;
+    -fx-background-color:  #7166F9;
+    -fx-cursor: hand;
+}
+
+#panelao {
+    -fx-background-color: #fff;
+    -fx-background-radius: 20px;
+}
+
+#btnMenu:hover, #btnExibir:hover, #btnAddauto:hover, #btnAddcontrato:hover, #btnContrato:hover {
+   -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #5433FF 0%, #20BDFF 50%, #A5FECB 100%);
+
+}

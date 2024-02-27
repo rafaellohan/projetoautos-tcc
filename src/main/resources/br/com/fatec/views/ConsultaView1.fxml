@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.SVGPath?>
+
+<AnchorPane id="AnchorPane" prefHeight="544.0" prefWidth="471.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.fatec.controllers.ConsultaView1Controller">
+    <stylesheets>
+        <URL value="@/br/com/fatec/css/consultaview1.css" />
+    </stylesheets>
+   <children>
+      <GridPane layoutX="71.0" layoutY="161.0" prefHeight="270.0" prefWidth="330.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="192.0" minWidth="10.0" prefWidth="186.0" />
+          <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="160.0" minWidth="10.0" prefWidth="144.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label fx:id="lblPlaca" opacity="0.0" text="Placa Invisivel" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+            <Label fx:id="titulo1" text="Marca:" />
+            <Label fx:id="lblMarca" GridPane.columnIndex="1" />
+            <Label fx:id="titulo2" text="Modelo:" GridPane.rowIndex="1" />
+            <Label fx:id="lblModelo" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label fx:id="titulo3" text="Combustivel:" GridPane.rowIndex="2" />
+            <Label fx:id="lblComb" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label fx:id="titulo4" text="Motorização:" GridPane.rowIndex="3" />
+            <Label fx:id="lblMoto" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label fx:id="titulo5" text="Direção:" GridPane.rowIndex="4" />
+            <Label fx:id="lblDirecao" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Label fx:id="titulo6" text="Cambio:" GridPane.rowIndex="5" />
+            <Label fx:id="lblCambio" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Label fx:id="titulo7" text="Velocidade Maxima:" GridPane.rowIndex="6" />
+            <Label fx:id="lblVelomax" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Label fx:id="titulo8" text="Ano de Fabricação:" GridPane.rowIndex="7" />
+            <Label fx:id="lblAno" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+         </children>
+      </GridPane>
+      <HBox layoutX="118.0" layoutY="62.0" prefHeight="25.0" prefWidth="236.0">
+         <children>
+            <Button fx:id="btnConsulta" mnemonicParsing="false" onAction="#btnConsulta_Click">
+               <graphic>
+                  <SVGPath content="M14.3578 0C6.42009 0 0 6.27292 0 14.0287C0 21.7844 6.42009 28.0573 14.3578 28.0573C17.1917 28.0573 19.8145 27.245 22.0381 25.8653L32.4106 36L36 32.4928L25.7595 22.5129C27.6004 20.1533 28.7155 17.2296 28.7155 14.0287C28.7155 6.27292 22.2955 0 14.3578 0ZM14.3578 3.30086C20.4381 3.30086 25.3372 8.08775 25.3372 14.0287C25.3372 19.9696 20.4381 24.7564 14.3578 24.7564C8.27749 24.7564 3.3783 19.9696 3.3783 14.0287C3.3783 8.08775 8.27749 3.30086 14.3578 3.30086Z" />
+               </graphic>
+            </Button>
+            <ComboBox fx:id="cmbFiltros" prefHeight="47.0" prefWidth="165.0" />
+         </children>
+      </HBox>
+      <Label fx:id="tituloInfo" layoutX="123.0" layoutY="27.0" text="PLACA DO VEICULO" />
+      <Button fx:id="btnAplicar" layoutX="69.0" layoutY="445.0" mnemonicParsing="false" onAction="#btnAplicar_Click" text="APLICAR" />
+   </children>
+</AnchorPane>

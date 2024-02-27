@@ -1,0 +1,253 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+#painelConsultar  {
+    -fx-background-color: #FFF;
+    -fx-background-radius: 10px;
+}
+
+#titulo1, #titulo2, #titulo3, #titulo4, #titulo5, #titulo7, #titulo8, #titulo6 {
+    -fx-font-size: 20;
+    -fx-font-weight: 500;
+}
+
+#painelFoto {
+    -fx-background-radius: 50%;
+    -fx-background-color: #000;
+}
+
+#btnEditar {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #fff;
+    -fx-background-color: #FF6000;
+    -fx-cursor: hand;
+}
+
+#btnDeleta {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #fff;
+    -fx-background-color: #FF0000;
+    -fx-cursor: hand;
+}
+
+#vboxMenu {
+    -fx-background-color: #fff;
+    -fx-min-width: 92px;
+    -fx-min-height: 715;
+}
+
+#painelInfo {
+    -fx-background-color: #FFF;
+    -fx-background-radius: 10px;
+}
+
+#tituloVisao {
+    -fx-font-size: 20px;
+    -fx-text-fill: #728095;
+    
+}
+
+#tituloInfo {
+    -fx-font-size: 24px;
+    -fx-text-fill: #000;
+    -fx-font-weight: bold;
+}
+
+#tituloAluguel, #tituloComeco, #tituloFim, #tituloTotal, #tituloValor, #tituloStatus {
+    -fx-font-size: 16px;
+    -fx-text-fill: #000;
+    -fx-font-weight: 400;
+}
+
+#tituloInfo2 {
+     -fx-font-size: 24px;
+    -fx-text-fill: #000;
+    -fx-font-weight: bold;
+}
+
+#pane1 {
+    -fx-background-color:  linear-gradient(from 0% 0% to 100% 100%, #FEAC5E 0%, #C779D0 50%, #4BC0C8 100%);
+    -fx-background-radius: 20px;
+}
+
+#tituloQuilo, #tituloCambio {
+     -fx-font-size: 16px;
+    -fx-text-fill: #fff;
+    -fx-font-weight: bold;
+}
+
+#btnMenu, #btnExibir, #btnContrato, #btnAddauto, #btnAddcontrato {
+    -fx-min-width: 80px;
+    -fx-min-height:  58px;
+    -fx-background-radius: 10px;
+    -fx-background-color:  linear-gradient(from 0% 0% to 100% 100%, #FEAC5E 0%, #C779D0 50%, #4BC0C8 100%);
+    -fx-cursor: hand;
+}
+
+#btnConsulta {
+    -fx-background-radius: 10px 0 0 10px;
+    -fx-background-color: #fff;
+    -fx-cursor: hand;
+}
+
+#cmbConsulta {
+    -fx-background-color:#fff;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+#btnAddcontrato {
+    -fx-min-width: 80px;
+    -fx-min-height:  58px;
+    -fx-background-radius: 10px;
+    -fx-background-color:  linear-gradient(from 0% 0% to 100% 100%, #5433FF 0%, #20BDFF 50%, #A5FECB 100%);
+    -fx-cursor: hand;
+}
+
+#btnAddcontrato:hover {
+     -fx-background-color:  linear-gradient(from 0% 0% to 100% 100%, #5433FF 0%, #20BDFF 50%, #A5FECB 100%);
+}
+
+#txtNome, #txtSobrenome, #txtIden, #txtEmail, #txtCel, #txtEnde, #txtCidade, txtEstado {
+    -fx-min-width: 283px;
+    
+}
+
+#painelContratos {
+    -fx-min-width: 345px;
+    -fx-min-height: 633px;
+    -fx-background-color: #fff;
+    -fx-background-radius: 10px;
+}
+
+#painelAluguel {
+    -fx-background-color: #fff;
+    -fx-background-radius: 10px;
+}
+
+#rdbDiario, #rdbSemanal, #rdbMes, #rdbQuize, #rdbCredito, #rdbDebito {
+    -fx-font-size: 16px;
+    
+}
+
+.radio-button:selected .radio .dot{
+    -fx-background-color:  linear-gradient(from 0% 0% to 100% 100%, #FEAC5E 0%, #C779D0 50%, #4BC0C8 100%);
+     -fx-background-insets: 0;
+}
+
+#painelPreco {
+
+    -fx-background-color: #FF6000;
+    -fx-background-radius: 10px;
+    -fx-font-weight: bold;
+    
+}
+
+#tituloComeco1, #tituloTermino {
+    -fx-font-size: 16px;
+    -fx-text-fill: #fff;
+
+}
+
+#tituloPreco, #tituloAluguel {
+    -fx-text-fill: #fff;
+    -fx-font-size: 20px;
+
+}
+#cmbFiltros, #cmbItens {
+    -fx-background-color:#fff;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+#lblOrdem {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+#painelCarro {
+     -fx-background-color: #fff;
+    -fx-background-radius: 10px;
+}
+
+#tituloQ, #tituloC, #tituloF, #tituloD {
+    -fx-font-size: 16px;
+}
+
+#btnAnterior, #btnProximo {
+        -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #fff;
+    -fx-background-color: #FF6000;
+}
+
+#painelPagamento {
+    -fx-background-color: #fff;
+    -fx-background-radius: 20px;
+}
+
+#btnDetalhar {
+      -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #fff;
+    -fx-background-color:  linear-gradient(from 0% 0% to 100% 100%, #FEAC5E 0%, #C779D0 50%, #4BC0C8 100%);
+    -fx-cursor: hand;
+}
+
+#tituloCNome, #tituloCNumero, #tituloCVencimento, #tituloCCVV {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000;
+}
+
+#tituloBandeira {
+    -fx-font-size: 16px;
+    -fx-text-fill: #000;
+}
+
+
+#txtSub, #txtTax, #txtTotal {
+    -fx-font-sizE: 16px;
+    
+}
+
+#btnConcluir {
+     -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #fff;
+    -fx-background-color:  linear-gradient(from 0% 0% to 100% 100%, #FEAC5E 0%, #C779D0 50%, #4BC0C8 100%);
+    -fx-cursor: hand;
+}
+
+#btnLimpar {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #fff;
+    -fx-background-color:  #3EA2FF;
+        -fx-cursor: hand;
+}
+
+#btnMenu:hover, #btnExibir:hover, #btnAddauto:hover, #btnAddcontrato:hover, #btnContrato:hover {
+   -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #5433FF 0%, #20BDFF 50%, #A5FECB 100%);
+
+}
+
+#txtNome, #txtSobrenome, #txtIden, #txtEmail, #txtCell, #txtEnde, #txtCidade, #txtEstado {
+    -fx-background-color:#fff;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-border-color: gray;
+        -fx-border-radius: 4px
+}

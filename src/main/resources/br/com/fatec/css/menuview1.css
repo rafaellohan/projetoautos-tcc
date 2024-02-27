@@ -1,0 +1,26 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+-fx-background-color: #fff
+}
+
+#btnMenu, #btnExibir, #btnAddauto, #btnAddcontrato, #btnContrato {
+    -fx-background-color:  linear-gradient(from 0% 0% to 100% 100%, #FEAC5E 0%, #C779D0 50%, #4BC0C8 100%);
+    -fx-background-radius: 20px;
+    -fx-min-width: 70px;
+    -fx-min-height: 70px;
+    -fx-cursor: hand;
+}
+
+#titulo, #titulo1, #titulo2, #titulo3, #titulo4 {
+    -fx-font-size: 32px;
+    -fx-font-weight: 500;
+    -fx-font-family: "Poppins"
+}
+
+#btnMenu:hover, #btnExibir:hover, #btnAddauto:hover, #btnAddcontrato:hover, #btnContrato:hover {
+   -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #5433FF 0%, #20BDFF 50%, #A5FECB 100%);
+
+}
